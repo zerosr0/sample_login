@@ -44,8 +44,12 @@ li {
 /* repeating-conic-gradient 원뿔모양의 그라데이션을 생성하는 함수 */
 .login__form__container {
   position: relative;
-  width: 400px;
-  min-height: 400px;
+  top: 25%;
+  left: 18%;
+  min-width: 350px;
+  width: 10%;
+  min-height: 450px;
+  height: 40%;
   background: repeating-conic-gradient(
     from var(--a),
     #bfa35f 0%,
@@ -54,7 +58,7 @@ li {
     transparent 50%
   );
   animation: animate 6s linear infinite;
-  transform: scale(1.5) translate(55%, 45%);
+  transform: scale(1.5);
   transition: 0.5s;
   padding: 2px;
 }
@@ -102,7 +106,7 @@ li {
   letter-spacing: 0.06em;
   text-align: center;
   margin-bottom: 20px;
-  font-size: 1.45em;
+  font-size: 1.25em;
   text-transform: uppercase;
 }
 
@@ -141,6 +145,7 @@ li {
   display: flex;
   justify-content: space-between;
   color: #fff;
+  margin-bottom: 20px;
 }
 
 .login__etc-btn span {
@@ -158,6 +163,13 @@ li {
 }
 .login__etc-btn .login__sign-up-btn:hover {
   transform: scale(1.05);
+}
+
+.login__etc-notice {
+  width: 70%;
+  font-size: 8px;
+  color: #999;
+  text-align: center;
 }
 
 @keyframes animate {
