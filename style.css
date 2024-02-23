@@ -121,6 +121,12 @@ li {
 .login__input__box:last-child input {
   padding-left: 0;
   letter-spacing: 0.06em;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.login__input__box:last-child input:hover {
+  background-color: #ddd;
 }
 
 .login__input__box input::placeholder {
@@ -137,8 +143,21 @@ li {
   color: #fff;
 }
 
+.login__etc-btn span {
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.login__etc-btn span:hover {
+  transform: scale(1.05);
+}
+
 .login__etc-btn .login__sign-up-btn {
   color: #fff;
+  transition: 0.5s;
+}
+.login__etc-btn .login__sign-up-btn:hover {
+  transform: scale(1.05);
 }
 
 @keyframes animate {
